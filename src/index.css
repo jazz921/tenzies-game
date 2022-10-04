@@ -77,11 +77,12 @@ body {
   border: none;
   font-size: 18px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, .75);
+  display: grid;
+  place-items: center;
 }
 
 .hold {
-  background: rgb(61, 191, 61);
-  color: whitel
+  border: 3px solid rgb(61, 191, 61);
 }
 
 

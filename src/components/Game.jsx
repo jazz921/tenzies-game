@@ -13,7 +13,7 @@ const Game = ({ tenzies, die, generateDice, setHeld }) => {
       </div>
       <div className="die">
         {die.map((val) => {
-          return <Die key={val.id} value={val} setHeld={setHeld} />;
+          return <Die key={val.id} value={val} setHeld={setHeld} num={val.value} />;
         })}
       </div>
 
